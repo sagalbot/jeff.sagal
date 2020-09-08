@@ -1,7 +1,7 @@
 module.exports = {
   theme: {},
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
   purge: {
     enabled: process.env.NODE_ENV === 'production',
     content: [
